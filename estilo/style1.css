@@ -34,7 +34,7 @@ nav a:hover {
     color: #B29335;
 }
 .hero {
-    background: url('fundo.jpeg') no-repeat center center/cover;
+    background: url('../imagens/fundo.jpeg') no-repeat center center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
