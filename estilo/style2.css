@@ -90,14 +90,17 @@ footer {
 }
 h3 {
     text-align: center;
-    color: rgb(179, 179, 179);
-    font-size: 30px;
+    color: #B29335;
 }
 
 a {
     text-decoration: none ;
-    color:rgb(179, 179, 179) ;
+    color:#B29335 ;
 }
 a :hover {
     background-color: aqua;
+}
+.voltar :hover {
+    text-decoration: none ;
+    color: #B29335
 }
