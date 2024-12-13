@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    /*background: linear-gradient(150deg, #e2d9be, #B29335);*/
+    color: #333;
+    background-color: #e2e2e2;
+}
+header {
+    background: #3a2506;
+    color: #fff;
+    padding: 1rem 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1 {
+    margin: 0;
+    color: #B29335;
+    text-align: center;
+}
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+nav a:hover {
+    color: #B29335;
+}
+.hero {
+    background: url('fundo.jpeg') no-repeat center center/cover;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+}
+.hero h2 {
+    font-size: 2.5rem;
+    color: #b29335;
+}
+.products {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.product {
+    background:#604815;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s;
+}
+.product:hover {
+    transform: translateY(-10px);
+}
+.product img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.product h3 {
+    margin: 1rem;
+}
+footer {
+    background: linear-gradient(150deg, #372101, #B29335);
+    color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 0.5s ease-out;
+}
+.fade-in.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+h3 {
+    text-align: center;
+    color: rgb(179, 179, 179);
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none ;
+    color:rgb(179, 179, 179) ;
+}
+a :hover {
+    background-color: aqua;
+}
