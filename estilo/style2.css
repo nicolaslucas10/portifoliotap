@@ -91,11 +91,12 @@ footer {
 h3 {
     text-align: center;
     color: #B29335;
+    font-size: 30px;
 }
 
 a {
     text-decoration: none ;
-    color:#B29335 ;
+    color:#B29335;
 }
 a :hover {
     background-color: aqua;
