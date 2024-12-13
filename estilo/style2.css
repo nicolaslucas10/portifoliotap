@@ -6,7 +6,7 @@ body {
     background-color: #e2e2e2;
 }
 header {
-    background: #3a2506;
+    background: linear-gradient(150deg, #372101, #B29335);
     color: #fff;
     padding: 1rem 2rem;
     display: flex;
@@ -31,7 +31,7 @@ nav a {
     transition: color 0.3s;
 }
 nav a:hover {
-    color: #B29335;
+    color: #372101;
 }
 .hero {
     background: url('../imagens/fundo.jpeg') no-repeat center center/cover;
