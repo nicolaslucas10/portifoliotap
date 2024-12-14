@@ -83,6 +83,7 @@ footer {
     opacity: 0;
     transform: translateY(20px);
     transition: all 0.5s ease-out;
+    box-shadow:  3px 3px 3px 3px #372101a6;
 }
 .fade-in.show {
     opacity: 1;
@@ -98,6 +99,11 @@ a {
     text-decoration: none ;
     color:#B29335 ;
 }
-a :hover {
-    background-color: aqua;
+
+.navbar-brand {
+    color: #B29335;
 }
+a#tituloo {
+    color: #B29335;
+}
+

@@ -7,17 +7,37 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="estilo/style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <header>
-        <h1>Rocha Decor Estofados</h1> 
-        <nav>
-            <ul>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index1.html" id="tituloo">Rocha Decor Estofados</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="index1.html">Home <span class="sr-only">(página atual)</span></a>
+            <a class="nav-link" href="sofas.html">Sofás<span class="sr-only">(página Sofás)</span></a>
+            <a class="nav-link" href="camas.html">Camas<span class="sr-only">(página camas)</span></a>
+            <a class="nav-link" href="cabeceira.html">Cabeceiras<span class="sr-only">(página cabeceiras)</span></a>
+            <a class="nav-link" href="puffs.html">Puffs<span class="sr-only">(página puffs)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                mais
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="sobre.html">sobre</a>
+                <a class="dropdown-item" href="contato.html">contato</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://wa.me/5543984168902">WhatSapp</a>
+            </div>
             </ul>
-        </nav>
-    </header>
+        </form>
+    </div>
+    </nav>
 
     <div class="hero">
         <h2>Transforme Seu Ambiente com Estilo</h2>
@@ -26,7 +46,7 @@
     <section id="products" class="products">
         <div class="product fade-in">
             <img src="imagens/retratil1.jpg" alt="Produto 1">
-            <h3><a href="sofas.html">Sofás</a></h3>
+            <h3 id="itemm"><a href="sofas.html" >Sofás</a></h3>
         </div>
         <div class="product fade-in">
             <img src="imagens/cama.webp" alt="Produto 2">
@@ -82,6 +102,9 @@
         <p>&copy; 2024 Rocha Decor. Todos os direitos reservados.</p>
     </footer>
 
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
     <script>
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
