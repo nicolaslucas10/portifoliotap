@@ -54,6 +54,11 @@ nav a:hover {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
 }
+
+.card-img-top{
+    height: 250px; /* Altura desejada */
+    object-fit: cover; /* Corta a imagem para ajustar sem distorção */
+}
 /*.product {
     background-color: #5c432a;
     border-radius: 30px;
