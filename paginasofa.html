@@ -47,34 +47,59 @@
     <section id="products" class="products">
         
         <div class="card border-warning text-warning mb-3" style="width: 22rem;">
-            <img class="card-img-top" src="imagens/retratil1.jpg" alt="Imagem de capa do card">
+            <img class="card-img-top" src="imagens/sofaretratilemlinho.jpg" alt="Imagem de capa do card">
             <div class="card-body">
-            <h5 class="card-title">Sofás</h5>
-            <p class="card-text"></p>
-            <a href="paginasofa.html" class="btn btn-primary ">Clique aqui</a>
+              <h5 class="card-title">Sofá retratil em linho</h5>
+              <p class="card-text"></p>
+              <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
             </div>
-            </div>
+          </div>
 
-            <div class="card border-warning text-warning mb-3" style="width: 22rem;">
-            <img class="card-img-top" src="imagens/cama.webp" alt="Imagem de capa do card">
+          <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <img class="card-img-top" src="imagens/sofaemlinho3lugares.jpg" alt="Imagem de capa do card">
             <div class="card-body">
-            <h5 class="card-title">Camas</h5>
-            <p class="card-text"></p>
-            <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
+              <h5 class="card-title">Sofá retratil em linho com 3 lugares</h5>
+              <p class="card-text"></p>
+              <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
             </div>
-            </div>
+          </div>
 
-            <div class="card border-warning text-warning mb-3" style="width: 22rem;">
-            <img class="card-img-top" src="imagens/cabeceira.webp" alt="Imagem de capa do card">
+          <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <img class="card-img-top" src="imagens/sofaretratilemlistras.jpg" alt="Imagem de capa do card">
             <div class="card-body">
-            <h5 class="card-title">Cabeceiras  </h5>
-            <p class="card-text"></p>
-            <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
+              <h5 class="card-title">Sofá retratil e Reclinavel com custura em listras</h5>
+              <p class="card-text"></p>
+              <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
             </div>
         </div>
+
+
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+    <script>
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener("click", function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute("href")).scrollIntoView({
+                    behavior: "smooth",
+                });
+            });
+        });
+
+        // Fade-in effect on scroll
+        const fadeElements = document.querySelectorAll('.fade-in');
+        const observer = new IntersectionObserver(entries => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('show');
+                }
+            });
+        }, { threshold: 0.1 });
+
+        fadeElements.forEach(el => observer.observe(el));
+    </script>
 </body>
 </html>
