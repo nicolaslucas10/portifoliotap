@@ -59,6 +59,30 @@ nav a:hover {
     height: 250px; /* Altura desejada */
     object-fit: cover; /* Corta a imagem para ajustar sem distorção */
 }
+
+.card-title{
+    text-shadow:1px 1px 1px black ;
+}
+.btn-primary {
+    text-shadow:1px 1px 1px black ;
+}
+.border-warning{
+box-shadow:0.5px 0.5px 0.5px rgba(0, 0, 0, 0.538) ;}
+
+.carrossel {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    height: 100vh;
+    
+}
+.carousel slide{
+width: 200px;
+height: 100px;
+background-color: #4CAF50;
+color: white;
+text-align: center;
+line-height: 100px;
+}
 /*.product {
     background-color: #5c432a;
     border-radius: 30px;
