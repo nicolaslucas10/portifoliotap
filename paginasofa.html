@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="estilo/style1.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -45,15 +48,84 @@
     </div>
 
     <section id="products" class="products">
-        
+
         <div class="card border-warning text-warning mb-3" style="width: 22rem;">
-            <img class="card-img-top" src="imagens/sofaretratilemlinho.jpg" alt="Imagem de capa do card">
+            <!-- Carousel -->
+            <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- Primeira Imagem Ativa -->
+                <div class="carousel-item active">
+                  <img src="imagens/sofaretratilemlinho.jpg" class="d-block w-100" alt="Sofá 1">
+                </div>
+                <!-- Segunda Imagem -->
+                <div class="carousel-item">
+                  <img src="imagens/sofaretratilemlinho2.jpg" class="d-block w-100" alt="Sofá 2">
+                </div>
+                <!-- Terceira Imagem -->
+                <div class="carousel-item">
+                  <img src="imagens/sofaretratilemlinho.jpg" class="d-block w-100" alt="Sofá 3">
+                </div>
+              </div>
+              <!-- Botões de Navegação -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+            </div>
+          
+            <!-- Corpo do Card -->
             <div class="card-body">
-              <h5 class="card-title">Sofá Retratil em Linho com Almofadas soltas</h5>
+              <h5 class="card-title">Sofá Retrátil em Linho com Almofadas soltas</h5>
               <p class="card-text"></p>
-              <a href="SofáRetratilemLinhocomAlmofadassoltas.html" class="btn btn-primary ">Mais Informações, clique aqui</a>
+              <a href="SofáRetratilemLinhocomAlmofadassoltas.html" class="btn btn-primary">Mais Informações, clique aqui</a>
             </div>
           </div>
+          
+
+              <!-- SEGUNDO CARD -->
+
+
+
+          <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <!-- Carousel -->
+            <div id="carouselExample1" class="carousel slide" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <!-- Primeira Imagem Ativa -->
+                <div class="carousel-item active">
+                  <img src="imagens/sofaemlinho3lugares.jpg" class="d-block w-100" alt="Sofá 1">
+                </div>
+                <!-- Segunda Imagem -->
+                <div class="carousel-item">
+                  <img src="imagens/sofaemlinho3lugares2.jpg" class="d-block w-100" alt="Sofá 2">
+                </div>
+                <!-- Terceira Imagem -->
+                <div class="carousel-item">
+                  <img src="imagens/sofaemlinho3lugares3.jpg" class="d-block w-100" alt="Sofá 3">
+                </div>
+              </div>
+              <!-- Botões de Navegação -->
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample1" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample1" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Próximo</span>
+              </button>
+            </div>
+          
+            <!-- Corpo do Card -->
+            <div class="card-body">
+              <h5 class="card-title">Sofá retratil em linho com 3 lugares</h5>
+              <p class="card-text"></p>
+              <a href="SofáRetratilemLinhocomAlmofadassoltas.html" class="btn btn-primary">Mais Informações, clique aqui</a>
+            </div>
+          </div>
+          
 
           <div class="card border-warning text-warning mb-3" style="width: 22rem;">
             <img class="card-img-top" src="imagens/sofaemlinho3lugares.jpg" alt="Imagem de capa do card">
@@ -78,6 +150,7 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         // Smooth scrolling for anchor links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
