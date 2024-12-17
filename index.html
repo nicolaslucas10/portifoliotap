@@ -1,69 +1,80 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bem-vindo à Tapeçaria</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        body {
-            font-family: Arial, sans-serif;
-            background: linear-gradient(150deg,#3a2506, #b29335);
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
-            color: #333;
-        }
-
-        .container {
-            text-align: center;
-            padding: 20px;
-            background: #3a25068e;
-            box-shadow: 0 4px 8px rgb(0, 0, 0);
-            border-radius: 10px;
-        }
-
-        .container h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            color:#B29335
-            
-        }
-
-        .container p {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            color: #fff;
-        }
-
-        .button {
-            display: inline-block;
-            padding: 15px 30px;
-            font-size: 1rem;
-            font-weight: bold;
-            color: #fff;
-            background: #3a2506;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: 0.3s;
-        }
-
-        .button:hover {
-            background: #B29335;
-        }
-    </style>
+    <title>Rocha Decor</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="estilo/style1.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 </head>
 <body>
-    <div class="container">
-        <h1>Bem-vindo à Rocha Decor</h1>
-        <p>Descubra nossos produtos exclusivos para decorar sua casa com estilo.</p>
-        <a href="index1.html" class="button">Ver Produtos</a>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index1.html" id="tituloo">Rocha Decor Estofados</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#conteudoNavbarSuportado" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="conteudoNavbarSuportado">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="index1.html">Home <span class="sr-only">(página atual)</span></a>
+            </li>
+            <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                mais
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="sofas.html">Sofás</a>
+                <a class="dropdown-item" href="camas.html">Camas</a>
+                <a class="dropdown-item" href="cabeceira.html">Cabeceiras</a>
+                <a class="dropdown-item" href="cortinas.html">Cortinas</a>
+                <a class="dropdown-item" href="cantoalemao.html">Canto Alemão</a>
+                <a class="dropdown-item" href="contato.html">Contato</a>
+                <a class="dropdown-item" href="sobre.html">Sobre a Empresa</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="https://wa.me/5543984168902">WhatSapp</a>
+            </div>
+            </ul>
+        </form>
     </div>
+    </nav>
+
+    <div class="hero" id="hero">
+        <h2>Transforme Seu Ambiente com Estilo</h2>
+    </div>
+
+    <section id="products" class="products">
+        
+        <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <img class="card-img-top" src="imagens/retratil1.jpg" alt="Imagem de capa do card">
+            <div class="card-body">
+            <h5 class="card-title">Sofás</h5>
+            <p class="card-text"></p>
+            <a href="paginasofa.html" class="btn btn-primary ">Clique aqui</a>
+            </div>
+            </div>
+
+            <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <img class="card-img-top" src="imagens/cama.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+            <h5 class="card-title">Camas</h5>
+            <p class="card-text"></p>
+            <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
+            </div>
+            </div>
+
+            <div class="card border-warning text-warning mb-3" style="width: 22rem;">
+            <img class="card-img-top" src="imagens/cabeceira.webp" alt="Imagem de capa do card">
+            <div class="card-body">
+            <h5 class="card-title">Cabeceiras  </h5>
+            <p class="card-text"></p>
+            <a href="sofas.html" class="btn btn-primary ">Clique aqui</a>
+            </div>
+        </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script> 
 </body>
 </html>
