@@ -33,7 +33,7 @@ nav a:hover {
     color: #372101;
 }*/
 .hero {
-    background: url('../imagens/sofaretratilemlistras.jpg') no-repeat center center/cover;
+    background: url('../imagens/fundo.jpeg') no-repeat center center/cover;
     height: 50vh;
     display: flex;
     justify-content: center;
