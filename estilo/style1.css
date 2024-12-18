@@ -87,6 +87,15 @@ color: white;
 text-align: center;
 line-height: 100px;
 }
+
+/*.products {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.carouselslide {
+    flex-grow: 5; /* O item crescerá proporcionalmente */
+  }
 /*.product {
     background-color: #5c432a;
     border-radius: 30px;
