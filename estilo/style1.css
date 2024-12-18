@@ -42,6 +42,9 @@ nav a:hover {
     text-align: center;
     /* background-attachment: fixed;*/
 }
+a#tituloo{
+    padding: 12px;
+}
 
 div#hero1{
     
