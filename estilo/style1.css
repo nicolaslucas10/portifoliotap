@@ -11,14 +11,6 @@ html{
     margin: 0;
 }
 
-footer {
-    width: 100%;
-    position: relative; /* Mantém no fluxo da página */
-    left: 0;
-    bottom: 0;
-    margin: 0; /* Remove qualquer margem */
-    padding: 0; /* Remove padding adicional */
-  }
 /*header {
     background: linear-gradient(150deg, #372101, #B29335);;
     color: #fff;
